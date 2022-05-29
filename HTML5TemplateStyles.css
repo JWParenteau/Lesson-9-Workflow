@@ -1,0 +1,37 @@
+/* HTML5 Template Styles for HTML5Template page */
+/* Make HTML5 layout elements block elements for older browsers */
+header,
+nav,
+aside,
+article,
+footer,
+section,
+figure,
+figcaption {
+  display: block;
+}
+
+/* Get rid of white border around browser window */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Get rid of large margins on headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+#wrapper {
+  /* Set your own widths, % for fluid, px for fixed */
+  width: 100%;
+  min-width: 780px;
+  max-width: 1260px;
+  /* Center the layout */
+  margin: 0 auto;
+}
